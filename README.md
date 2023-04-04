@@ -12,4 +12,5 @@ node index.js --action="get" --id 05olLMgyVQdWRwgKfg5J6
 
 # Додаємо контакт
 node index.js --action="add" --name Mango --email mango@gmail.com --phone 322-22-22
+
 <a href="https://ibb.co/wNgTgbb"><img src="https://i.ibb.co/7JCHCTT/Screenshot-add.png" alt="Screenshot-add" border="0"></a>
