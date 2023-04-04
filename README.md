@@ -3,6 +3,5 @@
 # Отримуємо і виводимо весь список контактів у вигляді таблиці (console.table)
 node index.js --action="list"
 
-![Screenshot action list](https://ibb.co/wRGd13c)
 
-<a href="https://ibb.co/wRGd13c"><img src="https://i.ibb.co/Xb0WTNY/Screenshot-list.png" alt="Screenshot-list" width="300px" border="0"></a>
+<a href="https://ibb.co/wRGd13c"><img src="https://i.ibb.co/Xb0WTNY/Screenshot-list.png" alt="Screenshot-list" border="0"></a>
