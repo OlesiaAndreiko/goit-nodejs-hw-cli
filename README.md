@@ -3,4 +3,4 @@
 # Отримуємо і виводимо весь список контактів у вигляді таблиці (console.table)
 node index.js --action="list"
 
-![Описание](https://prnt.sc/AF3mi_zKwK9q)
+![Описание](https://ibb.co/M8F01gN)
