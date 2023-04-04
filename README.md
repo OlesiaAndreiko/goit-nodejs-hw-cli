@@ -1,4 +1,4 @@
-# goit-nodejs-hw-cli screenshot`s tests
+# test's screenshots 
 
 ### Отримуємо і виводимо весь список контактів у вигляді таблиці
 node index.js --action="list"
