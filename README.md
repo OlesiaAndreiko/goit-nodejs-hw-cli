@@ -1,1 +1,2 @@
-# goit-nodejs-hw-cli
+# goit-nodejs-hw-cli screenshot`s tests
+
