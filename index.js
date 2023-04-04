@@ -12,8 +12,8 @@ async function invokeAction({ action, id, name, email, phone }) {
 
     case "get":
       const contact = await contacts.getContactById(id);
-      if (!contact) {
-        throw new Error(`Contact with id ${id} not found!`);
+      if (!contact) {        
+        return console.log(chalk.bgRed(`Contact with id ${id} not found!`));
       }
       console.log(chalk.bgCyan('%s'), contact);
       break;
@@ -26,7 +26,7 @@ async function invokeAction({ action, id, name, email, phone }) {
     case "remove":
       const result = await contacts.removeContact(id);
       if (!result) {
-        throw new Error(`Contact with id ${id} not found!`);
+        return console.log(chalk.bgRed(`Contact with id ${id} not found!`));
       }
       console.log(
         chalk.bgGreen(
